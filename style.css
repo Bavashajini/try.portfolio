@@ -1,0 +1,313 @@
+
+@media (max-width: 768px) {
+  .hero-card{
+    display: flex;
+    flex-direction: column; /* Text mela, Image kela nu vanthudum */
+    text-align: center; /* Text-ah center panna */
+  }
+
+  .image-side {
+    width: 100%; /* Image mobile screen-ku thagandhappadi fit aagum */
+    max-width: 350px;
+    margin-top: 20px;
+  }
+}
+
+.head{
+    background-color: papayawhip;
+    width:auto;
+    height:75px;
+    padding:10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .me {
+    color: blueviolet;
+    background-color:rgb(230, 223, 230);
+    height:30px;
+    width:90px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+header .design{
+    color: rgb(198, 173, 221);
+    background-color: rgb(230, 223, 230);
+    height:30px;
+    width:90px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap:20px;
+}
+
+.logo{
+    color:plum;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+.base{
+    background-color: papayawhip;
+     width:auto;
+     height:50px;
+     padding:10px;
+     border-radius: 20px;
+     margin:20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.btn{
+    
+  display: inline-block;
+  background-color: #8b263e; /* Image-la irukira antha maroon lipstick shade */
+  color: #ffffff;            /* White text */
+  padding: 12px 28px;
+  border-radius: 50px;       /* Pill shape button custom structure */
+  text-decoration: none;     /* Underline text line removal */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-top: 20px;
+  transition: all 0.3s ease;  /* Smooth hover animation */
+  width: fit-content;
+}
+
+/* Mouse mela vaikum pothu button light-ah color maarum */
+.btn:hover {
+  background-color: #c56c71; /* Accent pinkish tone on hover */
+  transform: translateY(-2px); /* Light floating effect */
+}
+
+.detail{
+    background-color: papayawhip;
+     width:auto;
+     height:600px;
+     padding:10px;
+     border-radius: 20px;
+     margin:20px;
+     display:flex;
+     justify-content: space-between;
+}
+.feature{
+    background-color: papayawhip;
+     width:auto;
+     height:200px;
+     padding:10px;
+     border-radius: 20px;
+     margin:20px;
+
+}
+.idea{
+    background-color: papayawhip;
+     width:auto;
+     height:900px;
+     padding:10px;
+     border-radius: 20px;
+     margin:20px;
+}
+.hero-img img{
+    height:550px;
+    padding:30px;
+    
+
+}
+.hero-text{
+    color:red;
+}
+.logo1{
+    color: rgb(224, 138, 138);
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-size: 110px;
+}
+/* Card Container Styling */
+.hero-card {
+  background-color: #fcecd7; /* Unga same background shade */
+  border-radius: 24px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Content Side Styling */
+.content-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub-title {
+  color: #8b263e; /* Image-la irukira dark nail polish maroon color code */
+  font-family: 'Poppins', sans-serif; /* Clean font for small text */
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.main-title {
+  font-family: 'Playfair Display', 'Alex Brush', cursive; /* Beautiful script font */
+  color: #c56c71; /* Accent shade */
+  font-size: 4.5rem;
+  line-height: 1.1;
+  margin: 0;
+}
+
+/* Image Side Styling */
+.image-side img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05); /* Mild shadow for depth */
+  display: block;
+}
+.f1{
+    background-color: #e2e4e8; /* Unga modern grey background circle shade */
+  width: 70px;               /* Width equal-ah vacha thaan perfect circle varum */
+  height: 70px;              /* Height equal-ah vacha thaan perfect circle varum */
+  border-radius: 50%;        /* Rounded circle element transformation */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;         /* Icon size configuration */
+  margin-bottom: 15px;
+}
+.f2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width:70px;
+    height:70px;
+    border-radius: 50%;
+    background-color: #e2e4e8;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+.f3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width:70px;
+    height:70px;
+    border-radius: 50%;
+    background-color: #e2e4e8;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+.feature{
+    background-color: #fcecd7; /* Unga background card shade */
+  border-radius: 24px;
+  padding: 50px 30px;
+  display: flex;
+  justify-content: space-around; /* Moonu components-aiyum equal grid gap-la pirika */
+  align-items: center;
+  gap: 20px;
+}
+.headf1{
+    display: flex;
+  flex-direction: column; /* Ithu thaan Image mela, Caption keela varavaikuthu */
+  align-items: center;     /* Horizontal-ah elements-ai center aakuthu */
+  text-align: center;      /* Paragraph text-ai center alignment seiyuthu */
+  max-width: 200px;
+}
+.headf2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:200px;
+    
+}
+.headf3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:200px;
+    
+}
+.def1{
+    font-family: 'Poppins', sans-serif; /* Clean readable professional look font */
+  color: #2c2c2c;                     /* Modern dark grey/black shade contrast text */
+  font-size: 1rem;
+  font-weight: 600;                   /* Semibold highlight text look */
+  line-height: 1.4;
+  margin: 0;
+}
+.def2{
+    font-family: 'Poppins', sans-serif; /* Clean readable professional look font */
+  color: #2c2c2c;                     /* Modern dark grey/black shade contrast text */
+  font-size: 1rem;
+  font-weight: 600;                   /* Semibold highlight text look */
+  line-height: 1.4;
+  margin: 0;
+}
+.def3{
+    font-family: 'Poppins', sans-serif; /* Clean readable professional look font */
+  color: #2c2c2c;                     /* Modern dark grey/black shade contrast text */
+  font-size: 1rem;
+  font-weight: 600;                   /* Semibold highlight text look */
+  line-height: 1.4;
+  margin: 0;
+}
+.design-page h1{
+    color: #8b263e;
+    
+}
+.designs2{
+    
+    display:flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+    gap:15px;
+}
+.imgcard{
+    height:200px;
+    width:200px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.designs2 img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.imgcard{
+    height:200px;
+    width:200px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+@media (max-width: 768px) {
+    .design-page {
+        flex-direction: column; /* Stacks images vertically */
+        align-items: center;    /* Centers them */
+    }
+}
+@media (max-width: 768px) {
+    .feature {
+        flex-direction: column; /* Stacks images vertically */
+        align-items: center;
+        height:600px;    /* Centers them */
+    }
+}
